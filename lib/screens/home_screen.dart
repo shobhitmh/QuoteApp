@@ -101,15 +101,17 @@ class HomeScreen extends StatelessWidget {
         ],
       ),
       body: Center(
-        child: Padding(
-          padding: const EdgeInsets.all(16.0),
-          child: randomQuote != null
-              ? QuoteCard(quote: randomQuote) // Display the random quote
-              : Text(
-                  'No quotes available at the moment.',
-                  style: TextStyle(fontSize: 18.0),
-                  textAlign: TextAlign.center,
-                ), // Display a message if there are no quotes
+        child: SingleChildScrollView(
+          child: Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: randomQuote != null
+                ? QuoteCard(quote: randomQuote) // Display the random quote
+                : Text(
+                    'No quotes available at the moment.',
+                    style: TextStyle(fontSize: 18.0),
+                    textAlign: TextAlign.center,
+                  ), // Display a message if there are no quotes
+          ),
         ),
       ),
       floatingActionButton: Column(
