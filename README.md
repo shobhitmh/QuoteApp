@@ -14,7 +14,6 @@ It's a Flutter app that brings daily inspiration to your fingertips. The app dis
 - User-Friendly Interface: Designed with a clean and attractive UI for a seamless user experience
 
 
-Bring a little inspiration to your daily routine with the Inspiring Quotes app!
 
 ### Demo
 
